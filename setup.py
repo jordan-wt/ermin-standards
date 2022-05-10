@@ -5,10 +5,8 @@ setup(
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
-        "csv",
-        "pandas",
-        "validators",
-        "inspect",
-        "numpy",
+        "pandas>=1.1.2, < 1.3.0",
+        "validators>=0.18.0",
+        "numpy>=1.22",
     ]
 )
