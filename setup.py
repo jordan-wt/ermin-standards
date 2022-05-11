@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "pandas>=1.1.2, < 1.3.0",
-        "validators>=0.18.0",
+        "validators>=0.18.2",
         "numpy>=1.22.3",
     ]
 )
